@@ -17,7 +17,7 @@ repositories {
 version project.projectVersion
 
 ext {
-    commonBuild = 'https://raw.githubusercontent.com/grails/grails-common-build/master'
+    commonBuild = 'https://raw.githubusercontent.com/grails/grails-common-build/gradle6'
 }
 
 subprojects {
@@ -41,6 +41,7 @@ subprojects {
     }
 
     tasks.withType(Test).configureEach {
+        useJUnitPlatform()
         testLogging {
             events "failed"
             exceptionFormat "full"
@@ -71,5 +72,3 @@ subprojects {
         testCompile "org.codehaus.groovy:groovy-test:$groovyVersion"
     }
 }
-
-apply from: "${commonBuild}/common-publishing.gradle"
