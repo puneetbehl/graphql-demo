@@ -1,0 +1,6 @@
+#Wed, 13 Sep 2023 18:55:21 +0530
+
+info.app.version=3.0.0-SNAPSHOT
+info.app.name=examples-grails-docs-app
+grails.env=production
+info.app.grailsVersion=4.1.2

@@ -1,0 +1,2 @@
+include 'examples-grails-docs-app'
+project(":examples-grails-docs-app").projectDir = new File(settingsDir, "examples/grails-docs-app")
