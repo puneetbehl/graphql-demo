@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="demo.AuthorIntegrationSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-13T13:25:35" hostname="ocii002.local" time="0.096">
-  <properties/>
-  <testcase name="test creating an author" classname="demo.AuthorIntegrationSpec" time="0.096"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
